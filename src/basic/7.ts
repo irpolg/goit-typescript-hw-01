@@ -47,3 +47,4 @@ const page2: Book = {
     accounts: ['Alex'],
     status: 'close',
 }
+export{};
