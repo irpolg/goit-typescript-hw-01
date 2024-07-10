@@ -12,7 +12,7 @@
 // цих функцій, що повертаються? TypeScript
 
 
-function showMessage(message: string) {
+function showMessage(message: string): void {
     console.log(message);
 }
 showMessage('Hello everyone!');
@@ -22,6 +22,7 @@ function calc(num1: number, num2: number): number {
 }
 calc(1, 2);
 
-function customError(): void {
+function customError(): never {
     throw new Error('Error');
 }
+customError();
